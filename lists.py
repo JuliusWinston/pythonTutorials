@@ -12,12 +12,12 @@
 # names_of_gf5 = "Abena"
 
     # Item       1       2       3        4        5
-tsatsu_gfs = ["Adwoa", "Ama", "Akos", "Yaayaa", "Abena"]
+# names = ["Adwoa", "Ama", "Akos", "Yaayaa", "Abena"]
     # Indexes    0       1       2        3        4
     # Indexes   -5      -4      -3       -2       -1
  
 # NEGATIVE
-print(tsatsu_gfs[-4])
+# print(tsatsu_gfs[-4])
 
 # Getting a list from another list with slices
 
@@ -80,16 +80,64 @@ print(tsatsu_gfs[-4])
 # print('My pets are: ')
 # print(pet1 + ' ' + pet2 + ' ' + pet3 + ' ' + pet4 + ' ')
 
-my_pets = []
-while True:
-    print('Enter pet ' + str(len(my_pets) + 1) + " or nothing to stop")
-    pet_type = input()
-    if pet_type == '':
-        break
-    my_pets = my_pets + [pet_type]
+# my_pets = []
+# while True:
+#     print('Enter pet ' + str(len(my_pets) + 1) + " or nothing to stop")
+#     pet_type = input()
+#     if pet_type == '':
+#         break
+#     my_pets = my_pets + [pet_type]
 
-print('My pets are: ')
-for i in range(len(my_pets)):
-    print(my_pets[i], end= ' ')
+# print('My pets are: ')
+# for i in range(len(my_pets)):
+#     print(my_pets[i], end= ' ')
+
+# AUGMENTED ASSIGNMENT OPERATORS
+
+# var += 1 ( + = )
+# var -= 1 ( - = )
+# var *= 2 ( * = )
+# var /= 2 ( / = )
+# var %= 3 ( % = )
+
+# Methods 
+# A method is the same as a function, except it is "called on" an object or value.
+
+# def testFunc (name):
+#     print("Hello, " + name);
+
+# defaultStr = "the bomb";
+# capStr = "the bomb".title();
+
+# print(defaultStr)
+# print(capStr)
+# testFunc('Brocke')
+
+# Finding the index of an item in a list with the index() method
+# names = ["Adwoa", "Ama", "Akos", "Yaayaa", "Abena"]
+# print(names)
+
+# for i in range(len(names)):
+#     if (names[i] == "Yaayaa"):
+#         print("Index of " + str(names[i] + " is " + str(i)))
+
+# indexYaaya = names.index("Yaayaa");
+# print("Index of Yaaya is " + str(indexYaaya));
+
+# names = names + ["Kojo"]
+# print(names)
+
+# Adding items to a list with append() and insert() methods
+animals = ['Cat', 'Dog', 'Bat']
+print(animals)
+# append() adds the item to the end of the list, while insert() adds the item in what ever location/index you specify (But it has to be a valid index/location)
+animals.append('Goat')
+print(animals)
+
+animals.insert(2, "Camel")
+print(animals)
+
+
+
 
 
