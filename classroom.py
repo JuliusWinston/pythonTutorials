@@ -59,16 +59,17 @@
 # print('My pets are: ')
 # print(pet1 + ' ' + pet2 + ' ' + pet3 + ' ' + pet4 + ' ')
 
-my_pets = []
-while True:
-    print('Enter pet ' + str(len(my_pets) + 1) + " or nothing to stop")
-    pet_type = input()
-    if pet_type == '':
-        break
-    my_pets = my_pets + [pet_type]
+# my_pets = []
+# while True:
+#     print('Enter pet ' + str(len(my_pets) + 1) + " or nothing to stop")
+#     pet_type = input()
+#     if pet_type == '':
+#         break
+#     my_pets = my_pets + [pet_type]
 
-print('My pets are: ')
-for i in range(len(my_pets)):
-    print(my_pets[i], end= ' ')
+# print('My pets are: ')
+# for i in range(len(my_pets)):
+#     print(my_pets[i], end= ' ')
 
 
+# A simple game of rock, papper, scissors
