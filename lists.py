@@ -128,15 +128,76 @@
 # print(names)
 
 # Adding items to a list with append() and insert() methods
-animals = ['Cat', 'Dog', 'Bat']
-print(animals)
-# append() adds the item to the end of the list, while insert() adds the item in what ever location/index you specify (But it has to be a valid index/location)
-animals.append('Goat')
-print(animals)
+# animals = ['Cat', 'Dog', 'Bat']
+# print(animals)
+# # append() adds the item to the end of the list, while insert() adds the item in what ever location/index you specify (But it has to be a valid index/location)
+# animals.append('Goat')
+# print(animals)
 
-animals.insert(2, "Camel")
-print(animals)
+# animals.insert(2, "Camel")
+# print(animals)
 
+# Sorting values in a list with the sort method
+# spam = [2, 3, 5, 3.14, 1, -7]
+# print(f"Before sorting: {spam}")
+
+# spam.sort()
+# print(f"After sorting in increasing order: {spam}")
+
+# spam.sort(reverse=True)
+# print(f"After sorting in decreasing order: {spam}")
+
+# NOTE: you can't sort mixed data
+# ASCIIbetical order - for sorting string
+
+# spam = ['a', 'Z', 'A', 'z']
+# x = spam
+# spam.sort()
+# print(f"Sorted: {spam}")
+# lists, sequence, dictionaries are reference values
+
+# def testFunction (l):
+#     total = 0
+#     for i in range(len(l)):
+#         total += l[i]
+
+#     return total
+
+# expectedTotal = testFunction([1, 2, 3, 4, 5])
+# print(expectedTotal)
+
+# def testFunction2 (l):
+#     for i in range(len(l)):
+#         l[i] = l[i] * 2
+#     print(l)
+
+# testFunction2([1, 2, 3, 4, 5])
+# print(testFunction2([1, 2, 3, 4, 5]))
+# x = testFunction2([1, 2, 3, 4, 5])
+# print("x is: " + str(x))
+
+# y = print("Kofi")
+# print("y is : " + str(y))
+
+## reverse() method to reverse items in a list
+# spam = ['cat', 'dog', 'mouse']
+# spam2 = [1, 3, 4, 8, 10, 2]
+# spam2.reverse()
+# spam.reverse()
+# print(spam2)
+# print(spam)
+
+## Exception to indentation rules in python
+# spam = [
+#     'cat','dog','mouse',
+# ]
+
+# print(spam)
+
+## \ is the continuation character in a string 
+print("Brocked left Doris" + \
+"because she ate all da pizza" + \
+"because he is a foodie!");
 
 
 

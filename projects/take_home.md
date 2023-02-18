@@ -13,3 +13,9 @@
 4. Write a function that will keep dividing a number by 2 till the number is 1 or less. Display the results of each division as you go along.
 
 5. Given the list appliances = ['Fan', 'Toaster', 'Microwave', 'Heater', Flatscreen', Stereo Speakers'], write a loop to display all items in the list.
+
+6. Write a function that sorts a list and returns the sorted list.
+
+7. Write a function that takes a list of item prices in a checkout basket and find the total of all those item prices.
+
+8. Write a function that takes a list and sort the items in the list based on the sorting order that would be supplied as argument to the function. the sorting order is either "increasing" or "decreasing".
