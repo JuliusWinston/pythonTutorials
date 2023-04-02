@@ -198,6 +198,12 @@
 print("Brocked left Doris" + \
 "because she ate all da pizza" + \
 "because he is a foodie!");
+     #    0               1                   2
+test= [[2, 3, 5], ['a', 'b', 'c'], ['cow', 'hen', 'cat']]
+
+print(test[2][0])
+
+
 
 
 
